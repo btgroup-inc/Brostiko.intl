@@ -1,0 +1,282 @@
+23 20 49 6e 73 74 61 6c 6c 69 6e 67 20 44 6f 63  # Installing Doc
+6b 65 72 20 69 6e 20 54 65 72 6d 75 78 0a 54 68  ker in Termux.Th
+69 73 20 72 65 70 6f 73 69 74 6f 72 79 20 63 6f  is repository co
+6e 74 61 69 6e 73 20 69 6e 73 74 72 75 63 74 69  ntains instructi
+6f 6e 73 20 6f 6e 20 68 6f 77 20 74 6f 20 69 6e  ons on how to in
+73 74 61 6c 6c 20 44 6f 63 6b 65 72 20 69 6e 20  stall Docker in 
+5b 54 65 72 6d 75 78 5d 28 68 74 74 70 73 3a 2f  [Termux](https:/
+2f 74 65 72 6d 75 78 2e 63 6f 6d 2f 29 2c 20 61  /termux.com/), a
+20 70 6f 77 65 72 66 75 6c 20 74 65 72 6d 69 6e   powerful termin
+61 6c 20 65 6d 75 6c 61 74 6f 72 20 66 6f 72 20  al emulator for 
+41 6e 64 72 6f 69 64 2e 0a 0a 23 20 50 72 65 72  Android...# Prer
+65 71 75 69 73 69 74 65 73 0a 42 65 66 6f 72 65  equisites.Before
+20 70 72 6f 63 65 65 64 69 6e 67 20 77 69 74 68   proceeding with
+20 74 68 65 20 69 6e 73 74 61 6c 6c 61 74 69 6f   the installatio
+6e 2c 20 6d 61 6b 65 20 73 75 72 65 20 79 6f 75  n, make sure you
+20 68 61 76 65 20 74 68 65 20 66 6f 6c 6c 6f 77   have the follow
+69 6e 67 20 70 72 65 72 65 71 75 69 73 69 74 65  ing prerequisite
+73 3a 0a 2d 20 41 6e 20 41 6e 64 72 6f 69 64 20  s:.- An Android 
+64 65 76 69 63 65 20 77 69 74 68 20 54 65 72 6d  device with Term
+75 78 20 69 6e 73 74 61 6c 6c 65 64 2e 20 59 6f  ux installed. Yo
+75 20 63 61 6e 20 64 6f 77 6e 6c 6f 61 64 20 54  u can download T
+65 72 6d 75 78 20 66 72 6f 6d 20 74 68 65 20 5b  ermux from the [
+46 2d 44 72 6f 69 64 5d 28 68 74 74 70 73 3a 2f  F-Droid](https:/
+2f 66 2d 64 72 6f 69 64 2e 6f 72 67 2f 70 61 63  /f-droid.org/pac
+6b 61 67 65 73 2f 63 6f 6d 2e 74 65 72 6d 75 78  kages/com.termux
+2f 29 20 61 70 70 20 73 74 6f 72 65 2e 0a 2d 20  /) app store..- 
+53 74 61 62 6c 65 20 69 6e 74 65 72 6e 65 74 20  Stable internet 
+63 6f 6e 6e 65 63 74 69 6f 6e 2e 0a 0a 23 20 49  connection...# I
+6e 73 74 61 6c 6c 61 74 69 6f 6e 20 53 74 65 70  nstallation Step
+73 0a 46 6f 6c 6c 6f 77 20 74 68 65 20 73 74 65  s.Follow the ste
+70 73 20 62 65 6c 6f 77 20 74 6f 20 69 6e 73 74  ps below to inst
+61 6c 6c 20 44 6f 63 6b 65 72 20 69 6e 20 54 65  all Docker in Te
+72 6d 75 78 3a 0a 31 2e 20 4f 70 65 6e 20 54 65  rmux:.1. Open Te
+72 6d 75 78 20 6f 6e 20 79 6f 75 72 20 41 6e 64  rmux on your And
+72 6f 69 64 20 64 65 76 69 63 65 2e 0a 0a 32 2e  roid device...2.
+20 55 70 64 61 74 65 20 61 6e 64 20 75 70 67 72   Update and upgr
+61 64 65 20 74 68 65 20 70 61 63 6b 61 67 65 73  ade the packages
+20 62 79 20 72 75 6e 6e 69 6e 67 20 74 68 65 20   by running the 
+66 6f 6c 6c 6f 77 69 6e 67 20 63 6f 6d 6d 61 6e  following comman
+64 3a 0a 60 60 60 62 61 73 68 0a 70 6b 67 20 75  d:.```bash.pkg u
+70 64 61 74 65 20 2d 79 20 26 26 20 70 6b 67 20  pdate -y && pkg 
+75 70 67 72 61 64 65 20 2d 79 0a 60 60 60 0a 0a  upgrade -y.```..
+33 2e 20 49 6e 73 74 61 6c 6c 20 74 68 65 20 6e  3. Install the n
+65 63 65 73 73 61 72 79 20 64 65 70 65 6e 64 65  ecessary depende
+6e 63 69 65 73 20 62 79 20 72 75 6e 6e 69 6e 67  ncies by running
+20 74 68 65 20 66 6f 6c 6c 6f 77 69 6e 67 20 63   the following c
+6f 6d 6d 61 6e 64 3a 0a 60 60 60 62 61 73 68 0a  ommand:.```bash.
+70 6b 67 20 69 6e 73 74 61 6c 6c 20 71 65 6d 75  pkg install qemu
+2d 75 74 69 6c 73 20 71 65 6d 75 2d 63 6f 6d 6d  -utils qemu-comm
+6f 6e 20 71 65 6d 75 2d 73 79 73 74 65 6d 2d 78  on qemu-system-x
+38 36 5f 36 34 2d 68 65 61 64 6c 65 73 73 20 77  86_64-headless w
+67 65 74 20 2d 79 0a 60 60 60 0a 0a 34 2e 20 43  get -y.```..4. C
+72 65 61 74 65 20 61 20 73 65 70 65 72 61 74 65  reate a seperate
+20 64 69 72 65 63 74 6f 72 79 3a 0a 60 60 60 62   directory:.```b
+61 73 68 0a 6d 6b 64 69 72 20 61 6c 70 69 6e 65  ash.mkdir alpine
+20 26 26 20 63 64 20 61 6c 70 69 6e 65 0a 60 60   && cd alpine.``
+60 0a 0a 35 2e 20 44 6f 77 6e 6c 6f 61 64 20 41  `..5. Download A
+6c 70 69 6e 65 20 4c 69 6e 75 78 20 33 2e 31 39  lpine Linux 3.19
+20 28 76 69 72 74 20 6f 70 74 69 6d 69 7a 65 64   (virt optimized
+29 20 49 53 4f 3a 0a 60 60 60 62 61 73 68 0a 77  ) ISO:.```bash.w
+67 65 74 20 68 74 74 70 3a 2f 2f 64 6c 2d 63 64  get http://dl-cd
+6e 2e 61 6c 70 69 6e 65 6c 69 6e 75 78 2e 6f 72  n.alpinelinux.or
+67 2f 61 6c 70 69 6e 65 2f 76 33 2e 31 39 2f 72  g/alpine/v3.19/r
+65 6c 65 61 73 65 73 2f 78 38 36 5f 36 34 2f 61  eleases/x86_64/a
+6c 70 69 6e 65 2d 76 69 72 74 2d 33 2e 31 39 2e  lpine-virt-3.19.
+31 2d 78 38 36 5f 36 34 2e 69 73 6f 0a 60 60 60  1-x86_64.iso.```
+0a 0a 36 2e 20 43 72 65 61 74 65 20 64 69 73 6b  ..6. Create disk
+20 28 6e 6f 74 65 20 69 74 20 77 6f 6e 27 74 20   (note it won't 
+61 63 74 75 61 6c 6c 79 20 74 61 6b 65 20 35 47  actually take 5G
+42 20 6f 66 20 73 70 61 63 65 2c 20 6d 6f 72 65  B of space, more
+20 6c 69 6b 65 20 35 30 30 2d 36 30 30 4d 42 29   like 500-600MB)
+3a 0a 60 60 60 62 61 73 68 0a 71 65 6d 75 2d 69  :.```bash.qemu-i
+6d 67 20 63 72 65 61 74 65 20 2d 66 20 71 63 6f  mg create -f qco
+77 32 20 61 6c 70 69 6e 65 2e 69 6d 67 20 35 47  w2 alpine.img 5G
+0a 60 60 60 0a 0a 37 2e 20 42 6f 6f 74 20 69 74  .```..7. Boot it
+20 75 70 3a 0a 60 60 60 62 61 73 68 0a 71 65 6d   up:.```bash.qem
+75 2d 73 79 73 74 65 6d 2d 78 38 36 5f 36 34 20  u-system-x86_64 
+2d 6d 61 63 68 69 6e 65 20 71 33 35 20 2d 6d 20  -machine q35 -m 
+31 30 32 34 20 2d 73 6d 70 20 63 70 75 73 3d 32  1024 -smp cpus=2
+20 2d 63 70 75 20 71 65 6d 75 36 34 20 2d 64 72   -cpu qemu64 -dr
+69 76 65 20 69 66 3d 70 66 6c 61 73 68 2c 66 6f  ive if=pflash,fo
+72 6d 61 74 3d 72 61 77 2c 72 65 61 64 2d 6f 6e  rmat=raw,read-on
+6c 79 3d 6f 6e 2c 66 69 6c 65 3d 24 50 52 45 46  ly=on,file=$PREF
+49 58 2f 73 68 61 72 65 2f 71 65 6d 75 2f 65 64  IX/share/qemu/ed
+6b 32 2d 78 38 36 5f 36 34 2d 63 6f 64 65 2e 66  k2-x86_64-code.f
+64 20 2d 6e 65 74 64 65 76 20 75 73 65 72 2c 69  d -netdev user,i
+64 3d 6e 31 2c 64 6e 73 3d 38 2e 38 2e 38 2e 38  d=n1,dns=8.8.8.8
+2c 68 6f 73 74 66 77 64 3d 74 63 70 3a 3a 32 32  ,hostfwd=tcp::22
+32 32 2d 3a 32 32 20 2d 64 65 76 69 63 65 20 76  22-:22 -device v
+69 72 74 69 6f 2d 6e 65 74 2c 6e 65 74 64 65 76  irtio-net,netdev
+3d 6e 31 20 2d 63 64 72 6f 6d 20 61 6c 70 69 6e  =n1 -cdrom alpin
+65 2d 76 69 72 74 2d 33 2e 31 39 2e 31 2d 78 38  e-virt-3.19.1-x8
+36 5f 36 34 2e 69 73 6f 20 2d 6e 6f 67 72 61 70  6_64.iso -nograp
+68 69 63 20 61 6c 70 69 6e 65 2e 69 6d 67 0a 60  hic alpine.img.`
+60 60 0a 0a 38 2e 20 4c 6f 67 69 6e 20 77 69 74  ``..8. Login wit
+68 20 75 73 65 72 6e 61 6d 65 20 60 60 72 6f 6f  h username ``roo
+74 60 60 20 28 6e 6f 20 70 61 73 73 77 6f 72 64  t`` (no password
+29 0a 0a 39 2e 20 53 65 74 75 70 20 6e 65 74 77  )..9. Setup netw
+6f 72 6b 20 28 70 72 65 73 73 20 45 6e 74 65 72  ork (press Enter
+20 74 6f 20 75 73 65 20 64 65 66 61 75 6c 74 73   to use defaults
+29 3a 0a 60 60 60 62 61 73 68 0a 6c 6f 63 61 6c  ):.```bash.local
+68 6f 73 74 3a 7e 23 20 73 65 74 75 70 2d 69 6e  host:~# setup-in
+74 65 72 66 61 63 65 73 0a 20 41 76 61 69 6c 61  terfaces. Availa
+62 6c 65 20 69 6e 74 65 72 66 61 63 65 73 20 61  ble interfaces a
+72 65 3a 20 65 74 68 30 2e 0a 20 45 6e 74 65 72  re: eth0.. Enter
+20 27 3f 27 20 66 6f 72 20 68 65 6c 70 20 6f 6e   '?' for help on
+20 62 72 69 64 67 65 73 2c 20 62 6f 6e 64 69 6e   bridges, bondin
+67 20 61 6e 64 20 76 6c 61 6e 73 2e 0a 20 57 68  g and vlans.. Wh
+69 63 68 20 6f 6e 65 20 64 6f 20 79 6f 75 20 77  ich one do you w
+61 6e 74 20 74 6f 20 69 6e 69 74 69 61 6c 69 7a  ant to initializ
+65 3f 20 28 6f 72 20 27 3f 27 20 6f 72 20 27 64  e? (or '?' or 'd
+6f 6e 65 27 29 20 5b 65 74 68 30 5d 0a 20 49 70  one') [eth0]. Ip
+20 61 64 64 72 65 73 73 20 66 6f 72 20 65 74 68   address for eth
+30 3f 20 28 6f 72 20 27 64 68 63 70 27 2c 20 27  0? (or 'dhcp', '
+6e 6f 6e 65 27 2c 20 27 3f 27 29 20 5b 64 68 63  none', '?') [dhc
+70 5d 0a 20 44 6f 20 79 6f 75 20 77 61 6e 74 20  p]. Do you want 
+74 6f 20 64 6f 20 61 6e 79 20 6d 61 6e 75 61 6c  to do any manual
+20 6e 65 74 77 6f 72 6b 20 63 6f 6e 66 69 67 75   network configu
+72 61 74 69 6f 6e 3f 20 5b 6e 6f 5d 0a 60 60 60  ration? [no].```
+0a 6c 6f 63 61 6c 68 6f 73 74 3a 7e 23 20 0a 60  .localhost:~# .`
+60 60 62 61 73 68 0a 69 66 75 70 20 65 74 68 30  ``bash.ifup eth0
+0a 60 60 60 0a 0a 31 30 2e 20 43 72 65 61 74 65  .```..10. Create
+20 61 6e 20 61 6e 73 77 65 72 66 69 6c 65 20 74   an answerfile t
+6f 20 73 70 65 65 64 20 75 70 20 69 6e 73 74 61  o speed up insta
+6c 6c 61 74 69 6f 6e 3a 0a 60 60 60 62 61 73 68  llation:.```bash
+0a 77 67 65 74 20 68 74 74 70 73 3a 2f 2f 72 61  .wget https://ra
+77 2e 67 69 74 68 75 62 75 73 65 72 63 6f 6e 74  w.githubusercont
+65 6e 74 2e 63 6f 6d 2f 63 79 62 65 72 6b 65 72  ent.com/cyberker
+6e 65 6c 6f 66 66 69 63 69 61 6c 2f 64 6f 63 6b  nelofficial/dock
+65 72 2d 69 6e 2d 74 65 72 6d 75 78 2f 6d 61 69  er-in-termux/mai
+6e 2f 61 6e 73 77 65 72 66 69 6c 65 0a 60 60 60  n/answerfile.```
+0a 3e 20 2a 2a 4e 4f 54 45 3a 2a 2a 20 49 66 20  .> **NOTE:** If 
+79 6f 75 20 73 65 65 20 61 6e 79 20 65 72 72 6f  you see any erro
+72 20 6c 69 6b 65 20 74 68 69 73 3a 20 60 60 77  r like this: ``w
+67 65 74 3a 20 62 61 64 20 61 64 64 72 65 73 73  get: bad address
+20 27 67 69 73 74 2e 67 69 74 68 75 62 75 73 65   'gist.githubuse
+72 63 6f 6e 74 65 6e 74 2e 63 6f 6d 27 60 60 2e  rcontent.com'``.
+20 54 68 65 6e 20 72 75 6e 20 74 68 69 73 20 63   Then run this c
+6f 6d 6d 61 6e 64 0a 3e 20 60 60 60 62 61 73 68  ommand.> ```bash
+0a 3e 20 65 63 68 6f 20 2d 65 20 22 6e 61 6d 65  .> echo -e "name
+73 65 72 76 65 72 20 31 39 32 2e 31 36 38 2e 31  server 192.168.1
+2e 31 5c 6e 6e 61 6d 65 73 65 72 76 65 72 20 31  .1\nnameserver 1
+2e 31 2e 31 2e 31 22 20 3e 20 2f 65 74 63 2f 72  .1.1.1" > /etc/r
+65 73 6f 6c 76 2e 63 6f 6e 66 0a 3e 20 60 60 60  esolv.conf.> ```
+0a 0a 31 31 2e 20 50 61 74 63 68 20 60 60 73 65  ..11. Patch ``se
+74 75 70 2d 64 69 73 6b 60 60 20 74 6f 20 65 6e  tup-disk`` to en
+61 62 6c 65 20 73 65 72 69 61 6c 20 63 6f 6e 73  able serial cons
+6f 6c 65 20 6f 75 74 70 75 74 20 6f 6e 20 62 6f  ole output on bo
+6f 74 3a 0a 60 60 60 62 61 73 68 0a 73 65 64 20  ot:.```bash.sed 
+2d 69 20 2d 45 20 27 73 2f 28 6c 6f 63 61 6c 20  -i -E 's/(local 
+6b 65 72 6e 65 6c 5f 6f 70 74 73 29 3d 2e 2a 2f  kernel_opts)=.*/
+5c 31 3d 22 63 6f 6e 73 6f 6c 65 3d 74 74 79 53  \1="console=ttyS
+30 22 2f 27 20 2f 73 62 69 6e 2f 73 65 74 75 70  0"/' /sbin/setup
+2d 64 69 73 6b 0a 60 60 60 0a 0a 31 32 2e 20 52  -disk.```..12. R
+75 6e 20 73 65 74 75 70 20 74 6f 20 69 6e 73 74  un setup to inst
+61 6c 6c 20 74 6f 20 64 69 73 6b 0a 60 60 60 62  all to disk.```b
+61 73 68 0a 73 65 74 75 70 2d 61 6c 70 69 6e 65  ash.setup-alpine
+20 2d 66 20 61 6e 73 77 65 72 66 69 6c 65 0a 60   -f answerfile.`
+60 60 0a 0a 31 33 2e 20 4f 6e 63 65 20 69 6e 73  ``..13. Once ins
+74 61 6c 6c 61 74 69 6f 6e 20 69 73 20 63 6f 6d  tallation is com
+70 6c 65 74 65 2c 20 70 6f 77 65 72 20 6f 66 66  plete, power off
+20 74 68 65 20 56 4d 20 28 63 6f 6d 6d 61 6e 64   the VM (command
+20 60 60 70 6f 77 65 72 6f 66 66 60 60 29 0a 0a   ``poweroff``)..
+31 34 2e 20 42 6f 6f 74 20 61 67 61 69 6e 20 77  14. Boot again w
+69 74 68 6f 75 74 20 63 64 72 6f 6d 3a 0a 60 60  ithout cdrom:.``
+60 62 61 73 68 0a 71 65 6d 75 2d 73 79 73 74 65  `bash.qemu-syste
+6d 2d 78 38 36 5f 36 34 20 2d 6d 61 63 68 69 6e  m-x86_64 -machin
+65 20 71 33 35 20 2d 6d 20 31 30 32 34 20 2d 73  e q35 -m 1024 -s
+6d 70 20 63 70 75 73 3d 32 20 2d 63 70 75 20 71  mp cpus=2 -cpu q
+65 6d 75 36 34 20 2d 64 72 69 76 65 20 69 66 3d  emu64 -drive if=
+70 66 6c 61 73 68 2c 66 6f 72 6d 61 74 3d 72 61  pflash,format=ra
+77 2c 72 65 61 64 2d 6f 6e 6c 79 3d 6f 6e 2c 66  w,read-only=on,f
+69 6c 65 3d 24 50 52 45 46 49 58 2f 73 68 61 72  ile=$PREFIX/shar
+65 2f 71 65 6d 75 2f 65 64 6b 32 2d 78 38 36 5f  e/qemu/edk2-x86_
+36 34 2d 63 6f 64 65 2e 66 64 20 2d 6e 65 74 64  64-code.fd -netd
+65 76 20 75 73 65 72 2c 69 64 3d 6e 31 2c 64 6e  ev user,id=n1,dn
+73 3d 38 2e 38 2e 38 2e 38 2c 68 6f 73 74 66 77  s=8.8.8.8,hostfw
+64 3d 74 63 70 3a 3a 32 32 32 32 2d 3a 32 32 20  d=tcp::2222-:22 
+2d 64 65 76 69 63 65 20 76 69 72 74 69 6f 2d 6e  -device virtio-n
+65 74 2c 6e 65 74 64 65 76 3d 6e 31 20 2d 6e 6f  et,netdev=n1 -no
+67 72 61 70 68 69 63 20 61 6c 70 69 6e 65 2e 69  graphic alpine.i
+6d 67 0a 60 60 60 0a 0a 41 20 2d 20 0a 60 6e 61  mg.```..A - .`na
+6e 6f 20 72 75 6e 5f 71 65 6d 75 2e 73 68 60 0a  no run_qemu.sh`.
+49 6e 20 74 68 65 20 74 65 78 74 20 65 64 69 74  In the text edit
+6f 72 2c 20 77 72 69 74 65 20 74 68 65 20 66 6f  or, write the fo
+6c 6c 6f 77 69 6e 67 3a 0a 60 60 60 62 61 73 68  llowing:.```bash
+0a 23 21 2f 62 69 6e 2f 62 61 73 68 0a 71 65 6d  .#!/bin/bash.qem
+75 2d 73 79 73 74 65 6d 2d 78 38 36 5f 36 34 20  u-system-x86_64 
+2d 6d 61 63 68 69 6e 65 20 71 33 35 20 2d 6d 20  -machine q35 -m 
+31 30 32 34 20 2d 73 6d 70 20 63 70 75 73 3d 32  1024 -smp cpus=2
+20 2d 63 70 75 20 71 65 6d 75 36 34 20 2d 64 72   -cpu qemu64 -dr
+69 76 65 20 69 66 3d 70 66 6c 61 73 68 2c 66 6f  ive if=pflash,fo
+72 6d 61 74 3d 72 61 77 2c 72 65 61 64 2d 6f 6e  rmat=raw,read-on
+6c 79 3d 6f 6e 2c 66 69 6c 65 3d 24 50 52 45 46  ly=on,file=$PREF
+49 58 2f 73 68 61 72 65 2f 71 65 6d 75 2f 65 64  IX/share/qemu/ed
+6b 32 2d 78 38 36 5f 36 34 2d 63 6f 64 65 2e 66  k2-x86_64-code.f
+64 20 2d 6e 65 74 64 65 76 20 75 73 65 72 2c 69  d -netdev user,i
+64 3d 6e 31 2c 64 6e 73 3d 38 2e 38 2e 38 2e 38  d=n1,dns=8.8.8.8
+2c 68 6f 73 74 66 77 64 3d 74 63 70 3a 3a 32 32  ,hostfwd=tcp::22
+32 32 2d 3a 32 32 20 2d 64 65 76 69 63 65 20 76  22-:22 -device v
+69 72 74 69 6f 2d 6e 65 74 2c 6e 65 74 64 65 76  irtio-net,netdev
+3d 6e 31 20 2d 6e 6f 67 72 61 70 68 69 63 20 61  =n1 -nographic a
+6c 70 69 6e 65 2e 69 6d 67 0a 60 60 60 0a 53 61  lpine.img.```.Sa
+76 65 20 61 6e 64 20 63 6c 6f 73 65 20 74 68 65  ve and close the
+20 66 69 6c 65 2e 20 49 6e 20 6e 61 6e 6f 2c 20   file. In nano, 
+79 6f 75 20 63 61 6e 20 64 6f 20 74 68 69 73 20  you can do this 
+62 79 20 70 72 65 73 73 69 6e 67 20 43 74 72 6c  by pressing Ctrl
+2b 58 2c 20 74 68 65 6e 20 59 20 74 6f 20 63 6f  +X, then Y to co
+6e 66 69 72 6d 20 73 61 76 69 6e 67 2c 20 61 6e  nfirm saving, an
+64 20 74 68 65 6e 20 45 6e 74 65 72 20 74 6f 20  d then Enter to 
+63 6f 6e 66 69 72 6d 20 74 68 65 20 66 69 6c 65  confirm the file
+6e 61 6d 65 2e 0a 0a 42 20 2d 20 63 68 6d 6f 64  name...B - chmod
+20 63 6f 6d 6d 61 6e 64 3a 20 60 63 68 6d 6f 64   command: `chmod
+20 2b 78 20 72 75 6e 5f 71 65 6d 75 2e 73 68 60   +x run_qemu.sh`
+0a 0a 43 20 2d 20 60 2e 2f 72 75 6e 5f 71 65 6d  ..C - `./run_qem
+75 2e 73 68 60 0a 0a 31 35 2e 20 55 70 64 61 74  u.sh`..15. Updat
+65 20 73 79 73 74 65 6d 20 61 6e 64 20 69 6e 73  e system and ins
+74 61 6c 6c 20 64 6f 63 6b 65 72 3a 0a 60 60 60  tall docker:.```
+62 61 73 68 0a 0a 65 63 68 6f 20 22 6e 61 6d 65  bash..echo "name
+73 65 72 76 65 72 20 38 2e 38 2e 38 2e 38 22 20  server 8.8.8.8" 
+3e 20 2f 65 74 63 2f 72 65 73 6f 6c 76 2e 63 6f  > /etc/resolv.co
+6e 66 0a 65 63 68 6f 20 22 6e 61 6d 65 73 65 72  nf.echo "nameser
+76 65 72 20 38 2e 38 2e 34 2e 34 22 20 3e 3e 20  ver 8.8.4.4" >> 
+2f 65 74 63 2f 72 65 73 6f 6c 76 2e 63 6f 6e 66  /etc/resolv.conf
+0a 0a 61 70 6b 20 75 70 64 61 74 65 20 26 26 20  ..apk update && 
+61 70 6b 20 61 64 64 20 64 6f 63 6b 65 72 0a 60  apk add docker.`
+60 60 0a 0a 31 36 2e 20 53 74 61 72 74 20 64 6f  ``..16. Start do
+63 6b 65 72 3a 0a 60 60 60 62 61 73 68 0a 73 65  cker:.```bash.se
+72 76 69 63 65 20 64 6f 63 6b 65 72 20 73 74 61  rvice docker sta
+72 74 0a 60 60 60 0a 0a 31 37 2e 20 45 6e 61 62  rt.```..17. Enab
+6c 65 20 64 6f 63 6b 65 72 20 6f 6e 20 62 6f 6f  le docker on boo
+74 3a 0a 60 60 60 62 61 73 68 0a 72 63 2d 75 70  t:.```bash.rc-up
+64 61 74 65 20 61 64 64 20 64 6f 63 6b 65 72 0a  date add docker.
+60 60 60 0a 0a 31 38 2e 20 43 68 65 63 6b 20 64  ```..18. Check d
+6f 63 6b 65 72 20 69 6e 73 74 61 6c 6c 20 73 75  ocker install su
+63 63 65 73 73 66 75 6c 6c 79 20 6f 72 20 6e 6f  ccessfully or no
+74 3a 0a 60 60 60 62 61 73 68 0a 64 6f 63 6b 65  t:.```bash.docke
+72 20 72 75 6e 20 68 65 6c 6c 6f 2d 77 6f 72 6c  r run hello-worl
+64 0a 60 60 60 0a 0a 23 20 53 6f 6d 65 20 75 73  d.```..# Some us
+65 66 75 6c 20 6b 65 79 73 0a 2d 20 60 60 43 74  eful keys.- ``Ct
+72 6c 2b 61 20 78 60 60 3a 20 71 75 69 74 20 65  rl+a x``: quit e
+6d 75 6c 61 74 69 6f 6e 0a 2d 20 60 60 43 74 72  mulation.- ``Ctr
+6c 2b 61 20 68 60 60 3a 20 74 6f 67 67 6c 65 20  l+a h``: toggle 
+51 45 4d 55 20 63 6f 6e 73 6f 6c 65 0a 0a 23 20  QEMU console..# 
+55 73 61 67 65 0a 4e 6f 77 20 74 68 61 74 20 44  Usage.Now that D
+6f 63 6b 65 72 20 69 73 20 69 6e 73 74 61 6c 6c  ocker is install
+65 64 20 69 6e 20 54 65 72 6d 75 78 2c 20 79 6f  ed in Termux, yo
+75 20 63 61 6e 20 73 74 61 72 74 20 75 73 69 6e  u can start usin
+67 20 69 74 20 74 6f 20 6d 61 6e 61 67 65 20 61  g it to manage a
+6e 64 20 72 75 6e 20 63 6f 6e 74 61 69 6e 65 72  nd run container
+73 20 6f 6e 20 79 6f 75 72 20 41 6e 64 72 6f 69  s on your Androi
+64 20 64 65 76 69 63 65 2e 20 52 65 66 65 72 20  d device. Refer 
+74 6f 20 74 68 65 20 6f 66 66 69 63 69 61 6c 20  to the official 
+5b 44 6f 63 6b 65 72 20 64 6f 63 75 6d 65 6e 74  [Docker document
+61 74 69 6f 6e 5d 28 68 74 74 70 73 3a 2f 2f 64  ation](https://d
+6f 63 73 2e 64 6f 63 6b 65 72 2e 63 6f 6d 2f 29  ocs.docker.com/)
+20 66 6f 72 20 6d 6f 72 65 20 69 6e 66 6f 72 6d   for more inform
+61 74 69 6f 6e 20 6f 6e 20 68 6f 77 20 74 6f 20  ation on how to 
+75 73 65 20 44 6f 63 6b 65 72 2e 0a 0a 23 20 43  use Docker...# C
+6f 6e 74 72 69 62 75 74 69 6e 67 0a 49 66 20 79  ontributing.If y
+6f 75 20 65 6e 63 6f 75 6e 74 65 72 20 61 6e 79  ou encounter any
+20 69 73 73 75 65 73 20 64 75 72 69 6e 67 20 74   issues during t
+68 65 20 69 6e 73 74 61 6c 6c 61 74 69 6f 6e 20  he installation 
+70 72 6f 63 65 73 73 20 6f 72 20 68 61 76 65 20  process or have 
+73 75 67 67 65 73 74 69 6f 6e 73 20 66 6f 72 20  suggestions for 
+69 6d 70 72 6f 76 65 6d 65 6e 74 73 2c 20 70 6c  improvements, pl
+65 61 73 65 20 66 65 65 6c 20 66 72 65 65 20 74  ease feel free t
+6f 20 6f 70 65 6e 20 61 6e 20 69 73 73 75 65 20  o open an issue 
+6f 72 20 73 75 62 6d 69 74 20 61 20 70 75 6c 6c  or submit a pull
+20 72 65 71 75 65 73 74 2e 0a 0a 23 20 41 63 6b   request...# Ack
+6e 6f 77 6c 65 64 67 6d 65 6e 74 0a 2d 20 54 68  nowledgment.- Th
+69 73 20 61 72 74 69 63 6c 65 20 69 6e 73 70 69  is article inspi
+72 65 64 20 66 72 6f 6d 3a 20 68 74 74 70 73 3a  red from: https:
+2f 2f 67 69 73 74 2e 67 69 74 68 75 62 2e 63 6f  //gist.github.co
+6d 2f 6f 6f 66 6e 69 6b 6a 2f 65 37 39 61 65 66  m/oofnikj/e79aef
+30 39 35 63 64 30 38 37 35 36 66 37 66 32 36 65  095cd08756f7f26e
+64 32 34 34 33 35 35 64 36 32 0a 0a 23 20 4c 69  d244355d62..# Li
+63 65 6e 73 65 0a 54 68 69 73 20 70 72 6f 6a 65  cense.This proje
+63 74 20 69 73 20 6c 69 63 65 6e 73 65 64 20 75  ct is licensed u
+6e 64 65 72 20 74 68 65 20 5b 4d 49 54 20 4c 69  nder the [MIT Li
+63 65 6e 73 65 5d 28 4c 49 43 45 4e 53 45 29 2e  cense](LICENSE).
+0a                                               .
